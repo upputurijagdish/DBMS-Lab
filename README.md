@@ -1,1 +1,21 @@
 # DBMS-Lab
+exp.no1
+![image](https://user-images.githubusercontent.com/113408896/191416619-d3767393-70a0-49a0-80e6-268ccbba1c60.png)
+exp.no2
+![image](https://user-images.githubusercontent.com/113408896/191416719-7f209b7c-3fcc-4ace-baae-2f848df84745.png)
+![image](https://user-images.githubusercontent.com/113408896/191416796-c05321be-279f-4836-8f5b-aa3ff89ce33a.png)
+exp.no3
+![image](https://user-images.githubusercontent.com/113408896/191416865-5fc8a51c-dcce-4df4-bdb1-c61a1b11fe2d.png)
+exp.no4
+![image](https://user-images.githubusercontent.com/113408896/191416979-229073f3-9823-4172-a5d9-8e7d4b5572c4.png)
+![image](https://user-images.githubusercontent.com/113408896/191417014-5319583b-6456-4634-a719-38169572139b.png)
+![image](https://user-images.githubusercontent.com/113408896/191417040-b74b7319-f221-4184-a1e4-5bccf147a704.png)
+![image](https://user-images.githubusercontent.com/113408896/191417140-f69cc685-b16e-462b-8336-8ec5e18940ce.png)
+exp.no4
+![image](https://user-images.githubusercontent.com/113408896/191417185-ea806106-b9fa-4a93-b9af-a90eac02eabf.png)
+![image](https://user-images.githubusercontent.com/113408896/191417213-348d8eab-d8c8-4cc8-bb82-b6d459e59d13.png)
+exp.no5
+![image](https://user-images.githubusercontent.com/113408896/191417320-d946eb2b-ea71-428b-b2f9-b99e8ffef4ac.png)
+exp.no6
+exp.no7
+![image](https://user-images.githubusercontent.com/113408896/191417537-70e51469-7aab-4927-b0b3-761294bfc476.png)
