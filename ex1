@@ -1,0 +1,92 @@
+mysql> create database w;
+Query OK, 1 row affected (0.03 sec)
+
+mysql> create table w.student(reg_no int(3),name varchar(15),gender varchar(1), dob date,mobile_no int(10), city varchar(15));
+Query OK, 0 rows affected, 2 warnings (0.02 sec)
+
+mysql> describe w.student;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| reg_no    | int         | YES  |     | NULL    |       |
+| name      | varchar(15) | YES  |     | NULL    |       |
+| gender    | varchar(1)  | YES  |     | NULL    |       |
+| dob       | date        | YES  |     | NULL    |       |
+| mobile_no | int         | YES  |     | NULL    |       |
+| city      | varchar(15) | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+mysql> create table w.faculty(fac_no int(4), fac_name varchar(15), gender varchar(1), dob date, date_of_join date, mobile_no int(10));
+Query OK, 0 rows affected, 2 warnings (0.05 sec)
+
+mysql> create table w.depart(dept_no varchar(4), dept_name varchar(15), dept_head varchar(4));
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> create table w.course(course_no int(3), course_descr varchar(14), course_type varchar(1), sem_no int(1), hall_no int(4), fac_no int(4));
+Query OK, 0 rows affected, 4 warnings (0.02 sec)
+mysql> describe w.student;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| reg_no    | int         | YES  |     | NULL    |       |
+| name      | varchar(15) | YES  |     | NULL    |       |
+| gender    | varchar(1)  | YES  |     | NULL    |       |
+| dob       | date        | YES  |     | NULL    |       |
+| mobile_no | int         | YES  |     | NULL    |       |
+| city      | varchar(15) | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> describe w.faculty;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| fac_no       | int         | YES  |     | NULL    |       |
+| fac_name     | varchar(15) | YES  |     | NULL    |       |
+| gender       | varchar(1)  | YES  |     | NULL    |       |
+| dob          | date        | YES  |     | NULL    |       |
+| date_of_join | date        | YES  |     | NULL    |       |
+| mobile_no    | int         | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> describe w.depart;
++-----------+-------------+------+-----+---------+-------+
+| Field     | Type        | Null | Key | Default | Extra |
++-----------+-------------+------+-----+---------+-------+
+| dept_no   | varchar(4)  | YES  |     | NULL    |       |
+| dept_name | varchar(15) | YES  |     | NULL    |       |
+| dept_head | varchar(4)  | YES  |     | NULL    |       |
++-----------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> describe w.course;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| course_no    | int         | YES  |     | NULL    |       |
+| course_descr | varchar(14) | YES  |     | NULL    |       |
+| course_type  | varchar(1)  | YES  |     | NULL    |       |
+| sem_no       | int         | YES  |     | NULL    |       |
+| hall_no      | int         | YES  |     | NULL    |       |
+| fac_no       | int         | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> alter table w.faculty add(dept_no int(4));
+Query OK, 0 rows affected, 1 warning (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 1
+
+mysql> describe w.faculty;
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| fac_no       | int         | YES  |     | NULL    |       |
+| fac_name     | varchar(15) | YES  |     | NULL    |       |
+| gender       | varchar(1)  | YES  |     | NULL    |       |
+| dob          | date        | YES  |     | NULL    |       |
+| date_of_join | date        | YES  |     | NULL    |       |
+| mobile_no    | int         | YES  |     | NULL    |       |
+| dept_no      | int         | YES  |     | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
